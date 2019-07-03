@@ -1,4 +1,4 @@
-package com.spartons.driverapp.helper
+package fen.code.driverapp.helper
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -10,8 +10,8 @@ import com.afollestad.materialdialogs.MaterialDialog
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.GoogleApiAvailability
 import com.google.android.gms.location.LocationRequest
-import com.spartons.driverapp.R
-import com.spartons.driverapp.interfaces.IPositiveNegativeListener
+import com.code.driverapp.R
+import fen.code.driverapp.interfaces.IPositiveNegativeListener
 
 class UiHelper {
 

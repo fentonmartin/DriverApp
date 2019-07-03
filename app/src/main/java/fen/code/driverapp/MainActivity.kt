@@ -1,4 +1,4 @@
-package com.spartons.driverapp
+package fen.code.driverapp
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -14,16 +14,21 @@ import android.support.v7.widget.SwitchCompat
 import android.util.Log
 import android.widget.TextView
 import android.widget.Toast
+import com.code.driverapp.R
 import com.google.android.gms.location.*
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
-import com.spartons.driverapp.helper.*
-import com.spartons.driverapp.interfaces.IPositiveNegativeListener
-import com.spartons.driverapp.interfaces.LatLngInterpolator
-import com.spartons.driverapp.model.Driver
+import com.code.driverapp.helper.*
+import fen.code.driverapp.helper.FirebaseHelper
+import fen.code.driverapp.helper.GoogleMapHelper
+import fen.code.driverapp.helper.MarkerAnimationHelper
+import fen.code.driverapp.helper.UiHelper
+import fen.code.driverapp.interfaces.IPositiveNegativeListener
+import fen.code.driverapp.interfaces.LatLngInterpolator
+import fen.code.driverapp.model.Driver
 
 class MainActivity : AppCompatActivity() {
 

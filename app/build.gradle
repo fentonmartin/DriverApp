@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.spartons.driverapp"
+        applicationId "fen.code.driverapp"
         minSdkVersion 20
         targetSdkVersion 28
         versionCode 1

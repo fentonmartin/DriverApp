@@ -1,11 +1,11 @@
-package com.spartons.driverapp.helper
+package fen.code.driverapp.helper
 
 import android.os.Handler
 import android.os.SystemClock
 import android.view.animation.AccelerateDecelerateInterpolator
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
-import com.spartons.driverapp.interfaces.LatLngInterpolator
+import fen.code.driverapp.interfaces.LatLngInterpolator
 
 class MarkerAnimationHelper {
 

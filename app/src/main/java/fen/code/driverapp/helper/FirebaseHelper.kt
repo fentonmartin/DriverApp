@@ -1,9 +1,9 @@
-package com.spartons.driverapp.helper
+package fen.code.driverapp.helper
 
 import android.util.Log
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import com.spartons.driverapp.model.Driver
+import fen.code.driverapp.model.Driver
 
 class FirebaseHelper constructor(driverId: String) {
 

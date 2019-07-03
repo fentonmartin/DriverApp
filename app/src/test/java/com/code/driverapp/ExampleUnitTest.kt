@@ -1,4 +1,4 @@
-package com.spartons.driverapp
+package com.code.driverapp
 
 import org.junit.Test
 
